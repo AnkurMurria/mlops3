@@ -15,8 +15,6 @@ def main(config_path, datasource):
     print(config)
   
 
-
-
 if __name__=="__main__":
     args = argparse.ArgumentParser()
     default_config_path = os.path.join("config", "params.yaml")
